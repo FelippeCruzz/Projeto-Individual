@@ -121,6 +121,7 @@ font-size: large;
 
 /* DEMO-SPECIFIC STYLES */
 .LetrasAparecendo h1 {
+  padding: 2%;
   font-size: 90px;
   color: #fff;
   font-family: monospace;
@@ -172,6 +173,7 @@ width: 100%;
 }
 
 .LetrasAparecendo h2{
+  padding: 4%;
   font-size: 45px;
   color: #fff;
 }
