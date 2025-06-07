@@ -358,8 +358,10 @@ section ul #BT9{
 
 .login {
   height: var(--tamanho-login);
-  background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+  background-image: url('../assets/imgs/AS17-162-24103_LRG.png');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
 }
 
 .login .container {
@@ -375,7 +377,7 @@ section ul #BT9{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  color: palevioletred;
+  color:#000000 ;
   flex-direction: column;
   height: fit-content;
   padding: 20px 0;
@@ -431,11 +433,16 @@ section ul #BT9{
   font-weight: 600;
   font-size: 18px;
   color: #fff;
-  background-color: #ED145B;
+  background-color: #a20d0d;
   width: 120px;
   height: 30px;
   align-self: center;
   margin-top: 20px;
+}
+
+.botao:hover{
+  box-shadow: 0 0 20px #a20d0d;
+
 }
 
 .loading-div {
